@@ -1,7 +1,7 @@
-from list import Lista
-
-polinomios = Lista()
-
+from polinomio import Polinomio
+polinomio_a = Polinomio()
+polinomio_b = Polinomio()
+cons = 0
 
 print("Bienvenido al programa de polinomios hecho por Arturo Alva 1525123")
 while True:
@@ -16,7 +16,10 @@ while True:
     datop = int(input())
 
     if datop == 1:
-        pass
+        print("De que grado sera su polinomio ?")
+        a = int(input("Ingrese el gardo: "))
+
+
     elif datop == 2:
         pass
     elif datop == 3:
@@ -28,5 +31,3 @@ while True:
     else:
         print(" Número del menú no existente, vuelva a intentarlo ")
         print("\n")
-
-

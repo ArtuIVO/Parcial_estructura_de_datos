@@ -1,8 +1,6 @@
 
 class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next: Node | None = None
-
-    def __str__(self):
-        return str(self.data)
+    def __init__(self, coeficiente, exponente):
+        self.coeficiente = coeficiente
+        self.exponente = exponente
+        self.siguiente = None

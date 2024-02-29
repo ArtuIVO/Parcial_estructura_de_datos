@@ -127,5 +127,5 @@ class Lista:
             current = current.next
 
             if current is not None:
-                result += " --> \n"
+                result += " --> "
         return result
